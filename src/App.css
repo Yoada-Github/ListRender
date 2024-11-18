@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  padding: 50px;
+}
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  
+}
+
+ul {
+  list-style-type: none;
+  background-color: rgb(104, 104, 116);
+
+}
+
+li {
+  display: flex;
+  font-size: larger;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 5px solid #dddddd;
+  padding: 0px 20px 5px 20px;
+
+}
+
+#input{
+  border-radius: 5px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: black;
+}
+
+button{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  background-color: rgb(27, 18, 201);
+  color: white;
+}
